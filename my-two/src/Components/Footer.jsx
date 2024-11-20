@@ -23,9 +23,9 @@ function Footer() {
 
                 {/* Footer Logo and Quote */}
                 <div className="footer-logo-section">
-                    <div className="footer-logo">Movie4U</div>
+                    <div className="footer-logo">Tivora</div>
                     <p>"The best place to discover movies"</p>
-                    <p>&copy; 2024 MOVIE4U. All rights reserved.</p>
+                    <p>&copy; 2024 Tivora. All rights reserved.</p>
                 </div>
 
                 {/* Social media icons */}

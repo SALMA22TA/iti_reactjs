@@ -22,7 +22,7 @@ function Register() {
         mobileNumber,
         gender
       });
-      navigate('/');
+      navigate('/login');
     }
   };
 

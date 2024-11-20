@@ -659,3 +659,107 @@ select {
 }
 
 /* Register Page Ends */
+
+/* Search Bar Styling */
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #ffcc00;
+}
+/*MovieDetails Starts*/
+.movie-details-container {
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Limit the width of the details container */
+  margin: 20px auto; /* Center horizontally */
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Change the font for consistency */
+}
+
+.movie-details-header {
+  text-align: center; /* Center header elements */
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  font-size: 2em; /* Increase title size */
+  color: #333; /* Darker color for better readability */
+  margin-bottom: 10px;
+}
+
+.movie-release-date {
+  font-size: 1em;
+  color: #666; /* Lighter color for the release date */
+}
+
+.movie-details-content {
+  display: flex; /* Flexbox layout for poster and info */
+  gap: 20px; /* Space between elements */
+}
+
+.movie-poster {
+  width: 300px; /* Fixed width for poster */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.movie-info {
+  flex: 1; /* Take remaining space */
+  background: #fff; /* White background for info area */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.movie-overview {
+  font-size: 1.1em; /* Slightly larger font for overview */
+  color: #333; /* Darker text for better readability */
+  line-height: 1.5; /* Increase line height for readability */
+}
+
+.movie-rating {
+  font-size: 1em;
+  color: #ffcc00; /* Gold color for rating */
+  margin-top: 10px;
+  font-weight: bold; /* Make rating stand out */
+}
+
+.btn-watch-trailer {
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px; /* Space above button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn-watch-trailer:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 50px;
+}
+
+/**/
